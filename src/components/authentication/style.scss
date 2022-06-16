@@ -45,12 +45,12 @@
           background-color: #f3f3f3;
           border: 0;
           border-radius: 4px;
-          margin-bottom: 31px;
+          margin-bottom: 10px;
           transition: all 250ms ease-in-out;
-          &:hover {
-            //background-color: #ffffff;
-            //box-shadow: 0px 0px 14px 0.3px #0e81ce96;
-          }
+          // &:hover {
+          //   //background-color: #ffffff;
+          //   //box-shadow: 0px 0px 14px 0.3px #0e81ce96;
+          // }
 
           &:focus {
             outline: none;
@@ -61,7 +61,19 @@
     }
   }
 
-  .footer {
-    margin-top: 3em;
+  .new-account {
+    text-decoration: underline;
+    color: #3f75e8;
+    &:hover {
+      cursor: pointer;
+      color: #0139b1;
+    }
+  }
+
+  .footer-login {
+    margin-top: 3.1em;
+  }
+  .footer-register {
+    margin-top: 2em;
   }
 }
