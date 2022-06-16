@@ -1,12 +1,10 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import "./App.scss";
 import Login from "./components/authentication/Login";
 import Register from "./components/authentication/Register";
-import RightSide from "./components/RightSide";
 
 function App() {
   const [isLogginActive, setLogginActive] = useState(true);
-  const containerRef = useRef(null);
   const current = isLogginActive ? "Register" : "Login";
   const currentActive = isLogginActive ? "Login" : "Register";
 
