@@ -19,12 +19,7 @@ function App() {
       <div className="login">
         <div className="container">
           {isLogginActive && <Login handleOnClick={handleOnClick} />}
-          {!isLogginActive && (
-            <Register
-              style={{ transition: "2s" }}
-              handleOnClick={handleOnClick}
-            />
-          )}
+          {!isLogginActive && <Register handleOnClick={handleOnClick} />}
         </div>
       </div>
     </div>
